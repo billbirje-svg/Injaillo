@@ -1,0 +1,18 @@
+{
+  "name": "ccr-site",
+  "version": "1.0.0",
+  "description": "Maliisn Mansson | Cosmic Champion Records LLC official website",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production postcss src/input.css -o dist/output.css",
+    "dev": "postcss src/input.css -o dist/output.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.14"
+  },
+  "license": "UNLICENSED"
+}
